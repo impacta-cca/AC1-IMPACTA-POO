@@ -164,7 +164,7 @@ public class main {
                do {
                    System.out.println("Jogador: " + c + " | Escolha a LINHA: (1, 2 ou 3)");
                    linha = entrada.nextInt();
-               } while (linha > 3);
+               } while (linha > 3 || linha < 1);
                // Decrementa em 1 o valor da linha e coluna para ser passado como coordeanda.
                linha --;
                //---------------- COORDENADA LINHA.
@@ -174,7 +174,7 @@ public class main {
                do {
                    System.out.println("Jogador: " + c + " | Escolha a COLUNA: (1, 2 ou 3)");
                    coluna = entrada.nextInt();
-               } while (coluna > 3);
+               } while (coluna > 3 || coluna < 1);
                // Decrementa em 1 o valor da linha e coluna para ser passado como coordeanda.
                coluna--;
                //---------------- COORDENADA COLUNA.
