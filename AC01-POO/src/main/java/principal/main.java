@@ -188,7 +188,7 @@ public class main {
                //--------------- VALIDAÇÃO DE COORDENADA.
 
            }
-           
+           // Realiza troca entre jogadores
            if(c=='O'){
                c='X';
            }
